@@ -1,6 +1,6 @@
-# Notlar
+# Notes
 
-## Docker Image larını eklemek
+## Adding Docker Images
 
     PostgreSQL
     userName: postgres
@@ -26,4 +26,4 @@ docker run -d --name mongodb -p 27017:27017 jesus975/mongodb:latest
 
 
     mongod
-    db.createUser({user: "muhammet", pwd: "root",roles: ["readWrite","dbAdmin"]})
+    db.createUser({user: "isa", pwd: "root",roles: ["readWrite","dbAdmin"]})
